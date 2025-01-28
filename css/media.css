@@ -1,0 +1,90 @@
+/* MOBILE MEDIA */
+.sf-arrows .sf-with-ul:after {
+    content: '\2b';
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    margin-top: -2px;
+    height: 0;
+    width: 0;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 14px;
+    color: #3B4052;
+}
+
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after{
+  border-left-color: #333;
+}
+.toggle-nav, a.closebtn{
+  display: none;
+}
+.main-navigation ul ul li{
+  padding: 10px;
+}
+
+/* MEDIA SECTION */
+
+@media screen and (max-width: 720px) and (min-width:320px){
+  .sticky{
+      position: static !important;
+      transform: none;
+  }
+  .main-navigation ul ul{
+      position: static !important;
+  }
+  .main-navigation ul ul{
+      border: none !important;
+  }
+  .contact-section-form input[type="text"], .contact-section-form input[type="tel"], .contact-section-form input[type="email"],.contact-section-form textarea,#comments textarea,.single-post textarea#comment,.appoint-bg{
+    width: 100% !important;
+  }
+  p.comment-form-comment label{
+    bottom: 75%;
+  }
+  input.npcontac-name, input.npcontac-email, input.npcontac-call,input.appont-time{
+      text-align: center !important;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width:768px){
+  .sticky{
+      position: static !important;
+  }
+  .main-navigation ul ul{
+      position: static !important;
+  }
+  .wp-block-search__inside-wrapper {
+      display: inline-block !important;
+  }
+  button.wp-block-search__button, form.search-form.serach-page input.search-submit{
+          margin-top: 5px !important;
+  }
+  .contact-section-form input[type="text"], .contact-section-form input[type="tel"], .contact-section-form input[type="email"],.contact-section-form textarea{
+    width: 100% !important;
+  }
+  p.comment-form-comment label{
+    bottom: 75%;
+  }
+  #comments textarea{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width:1024px){
+  .contact-section-form input[type="text"], .contact-section-form input[type="tel"], .contact-section-form input[type="email"],.contact-section-form textarea,.appoint-bg{
+    width: 100% !important;
+  }
+  .contact-info h3:after{
+      left: 33% !important;
+  }
+  .main-navigation a {
+      padding: 5px 5px !important;
+  }
+}
+#comments textarea {
+    width: 100%;
+    margin: 5px 0px 0px 5px;
+    height: 100px;
+}
+}
